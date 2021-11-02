@@ -1202,28 +1202,17 @@ $EndComp
 Connection ~ 7450 4900
 Wire Wire Line
 	7450 4900 8100 4900
-$Comp
-L keebio:TRRS U3
-U 1 1 619B086F
-P 2650 8750
-F 0 "U3" H 2878 9053 60  0000 L CNN
-F 1 "TRRS" H 2878 8947 60  0000 L CNN
-F 2 "Keebio-Parts:TRRS-PJ-320A" H 2800 8750 60  0001 C CNN
-F 3 "" H 2800 8750 60  0001 C CNN
-	1    2650 8750
-	1    0    0    -1  
-$EndComp
-Text GLabel 2100 8350 0    50   Input ~ 0
+Text GLabel 1600 8450 0    50   Input ~ 0
 data
 $Comp
 L power:GND #PWR0109
 U 1 1 619B75FE
-P 2100 8450
-F 0 "#PWR0109" H 2100 8200 50  0001 C CNN
-F 1 "GND" V 2105 8322 50  0000 R CNN
-F 2 "" H 2100 8450 50  0001 C CNN
-F 3 "" H 2100 8450 50  0001 C CNN
-	1    2100 8450
+P 2100 8350
+F 0 "#PWR0109" H 2100 8100 50  0001 C CNN
+F 1 "GND" V 2105 8222 50  0000 R CNN
+F 2 "" H 2100 8350 50  0001 C CNN
+F 3 "" H 2100 8350 50  0001 C CNN
+	1    2100 8350
 	0    1    1    0   
 $EndComp
 $Comp
@@ -1238,32 +1227,7 @@ F 3 "" H 2100 8550 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	2100 8550 2250 8550
-Wire Wire Line
-	2100 8450 2200 8450
-Wire Wire Line
-	2100 8350 2150 8350
-Wire Wire Line
-	2300 7950 2250 7950
-Wire Wire Line
-	2250 7950 2250 8550
-Connection ~ 2250 8550
-Wire Wire Line
-	2250 8550 2300 8550
-Wire Wire Line
-	2300 7850 2200 7850
-Wire Wire Line
-	2200 7850 2200 8450
-Connection ~ 2200 8450
-Wire Wire Line
-	2200 8450 2300 8450
-Wire Wire Line
 	2300 7750 2150 7750
-Wire Wire Line
-	2150 7750 2150 8350
-Connection ~ 2150 8350
-Wire Wire Line
-	2150 8350 2300 8350
 Text GLabel 3150 3050 2    50   Input ~ 0
 data
 Wire Wire Line
@@ -1669,8 +1633,6 @@ F 3 "" H 2800 8150 60  0001 C CNN
 	1    2650 8150
 	1    0    0    -1  
 $EndComp
-NoConn ~ 2300 8050
-NoConn ~ 2300 8650
 Wire Wire Line
 	11750 7700 11900 7700
 Wire Wire Line
@@ -2092,4 +2054,51 @@ Wire Wire Line
 	4250 10500 4450 10500
 Wire Wire Line
 	3700 10500 3850 10500
+Wire Wire Line
+	2100 8550 2200 8550
+Wire Wire Line
+	2100 8350 2150 8350
+$Comp
+L keebio:TRRS U3
+U 1 1 619B086F
+P 2650 8750
+F 0 "U3" H 2878 9053 60  0000 L CNN
+F 1 "TRRS" H 2878 8947 60  0000 L CNN
+F 2 "Keebio-Parts:TRRS-PJ-320A" H 2800 8750 60  0001 C CNN
+F 3 "" H 2800 8750 60  0001 C CNN
+	1    2650 8750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2300 8650 2250 8650
+Wire Wire Line
+	2250 8650 2250 8350
+Connection ~ 2250 8350
+Wire Wire Line
+	2250 8350 2300 8350
+Wire Wire Line
+	2300 8050 2250 8050
+Wire Wire Line
+	2250 8050 2250 8350
+Wire Wire Line
+	2150 7750 2150 8350
+Connection ~ 2150 8350
+Wire Wire Line
+	2150 8350 2250 8350
+Wire Wire Line
+	2200 7950 2300 7950
+Connection ~ 2200 8550
+Wire Wire Line
+	2200 8550 2300 8550
+Wire Wire Line
+	2200 7950 2200 8550
+Wire Wire Line
+	1750 7850 1750 8450
+Wire Wire Line
+	1750 7850 2300 7850
+Wire Wire Line
+	1750 8450 2300 8450
+Wire Wire Line
+	1750 8450 1600 8450
+Connection ~ 1750 8450
 $EndSCHEMATC

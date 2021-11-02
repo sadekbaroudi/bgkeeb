@@ -1264,7 +1264,7 @@ Wire Wire Line
 Connection ~ 2150 8350
 Wire Wire Line
 	2150 8350 2300 8350
-Text GLabel 3150 3750 2    50   Input ~ 0
+Text GLabel 3150 3050 2    50   Input ~ 0
 data
 Wire Wire Line
 	9800 10650 10250 10650
