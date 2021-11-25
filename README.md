@@ -16,3 +16,5 @@ Discord: sadekbaroudi#1258
 # Pictures
 
 ![build](images/build.jpg)
+
+![pcbs](images/pcbs.jpg)
