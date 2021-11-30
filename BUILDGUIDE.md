@@ -1,5 +1,7 @@
 # Parts
 
+Note that all the links below are from major reputable elecronics sites. You can do this for much cheaper if you search for these same parts on aliexpress.com
+
 For this pcb, here are the components you will need:
 
 | Component   | Quantity    | Link |
