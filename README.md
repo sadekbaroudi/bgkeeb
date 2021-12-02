@@ -19,6 +19,10 @@ Discord: sadekbaroudi#1258
 
 # Firmware
 
+## v1
+
+(if there you don't see bgkeeb v2 on the board in the corner, it's v1)
+
 Link below. Remember that the left and right half use different firmware due to the fact that the diode direction is flipped between the halves. I created two configs, one for the left, and one for the right. If you copy the config.left.h/config.right.h to config.h before building, it will generate the appropriate firmware for that half.
 
 I made a script to make this simpler if you run your builds in linux:
@@ -26,6 +30,13 @@ https://github.com/sadekbaroudi/qmk_firmware/blob/master/bin/build-bgkeeb-defaul
 
 The general folder for the firmware is here:
 https://github.com/sadekbaroudi/qmk_firmware/tree/master/keyboards/xoiviox/bgkeeb/
+
+## v2
+
+You can use the firmware found here:
+https://github.com/sadekbaroudi/qmk_firmware/tree/master/keyboards/xoiviox/bgkeeb/
+
+Unlike v1, you can use the same hex file for both halves!
 
 # Pictures
 
