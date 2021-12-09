@@ -41,6 +41,9 @@ Bottom side:
 * Switches
 * Pro micro (the pro micro should go in the correct direction, please be careful about this, as it's easy to put it in backwards)
 
+Top side:
+* Rotary encoders (Note: there is text 'here' on both sides of the pcb. While placing the encoder in from the top, make sure you put the encoder in the holes that are closest to the word 'here')
+
 Note: Once you solder the pro micro, you can no longer access the solder points below it. So make sure everything is done before you do this
 
 Also, If you add rotary encoders, there are some nice covers you can 3d print and put on top for a cleaner look. This is optional, but recommended as it looks much better. See the stls directly in this folder:
