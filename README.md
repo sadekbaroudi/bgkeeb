@@ -20,7 +20,7 @@ Discord: sadekbaroudi#1258
 # Firmware
 
 You can use the firmware found here:
-https://github.com/sadekbaroudi/qmk_firmware/tree/master/keyboards/xoiviox/bgkeeb/
+https://github.com/sadekbaroudi/qmk_firmware/tree/master/keyboards/fingerpunch/bgkeeb/
 
 # Pictures
 
