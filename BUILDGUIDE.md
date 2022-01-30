@@ -8,7 +8,7 @@ For this pcb, here are the components you will need:
 | ----------- | ----------- | ------------ |
 | MCU (Pro Micro compatible, Elite-c compatible, or nice!nano compatible     | 2       | Google it, they're everywhere |
 | SMD Diodes 0805   | 42       | https://www.lcsc.com/product-detail/Switching-Diode_TWGMC-1N4148W_C727110.html |
-| SMD 10k resistor (optional, you can solder the pads together)   | 2       | https://www.lcsc.com/product-detail/Chip-Resistor-Surface-Mount_UNI-ROYAL-Uniroyal-Elec-0805W8F1002T5E_C17414.html |
+| SMD 10k resistor (optional)   | 2       | https://www.lcsc.com/product-detail/Chip-Resistor-Surface-Mount_UNI-ROYAL-Uniroyal-Elec-0805W8F1002T5E_C17414.html |
 | M2 10mm standoffs | 8 | https://keeb.io/products/m2-screws-and-standoffs?variant=47432051590 |
 | M2 4-5mm screws | 16 | https://www.amazon.com/uxcell-0-4mm-Stainless-Socket-DIN912/dp/B01M5DVE9R |
 | Reset switch | 2 | https://www.digikey.com/en/products/detail/c&k/PTS526%2520SM15%2520SMTR2%2520LFS/10056633 |
@@ -30,7 +30,7 @@ Print the left case and bottom plate. You can use your slicing software to do ho
 Building these is very straight forward. Solder all the components per the footprints on the board, in the following order:
 
 Top side:
-* Resistor (if you didn't get one, just solder the resistor pads together, they are located just above the reset switch)
+* Resistor
 * Reset switch
 * Aux jack
 
