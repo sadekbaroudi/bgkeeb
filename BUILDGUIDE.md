@@ -42,6 +42,7 @@ Bottom side:
 * Pro micro (the pro micro should go in the correct direction, please be careful about this, as it's easy to put it in backwards)
 
 Top side:
+* Note that before starting on the rotary encoders, if your encoders have the wide legs on the sides, you should clip them, since this pcb does not have holes for those legs. Please note that I'm *not* talking about the sides that have 2 or 3 pins. Thoes are important to keep.
 * Rotary encoders (Note: there is text 'here' on both sides of the pcb. While placing the encoder in from the top, make sure you put the encoder in the holes that are closest to the word 'here')
 
 Note: Once you solder the pro micro, you can no longer access the solder points below it. So make sure everything is done before you do this
