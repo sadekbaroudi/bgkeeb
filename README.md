@@ -27,3 +27,9 @@ https://github.com/sadekbaroudi/qmk_firmware/tree/master/keyboards/fingerpunch/b
 ![build](images/build.jpg)
 
 ![pcbs](images/pcbs.jpg)
+
+# Submitted build pics
+
+@carboncopy101
+
+![cc101-build](images/bgkeeb-carboncopy101.jpg)
