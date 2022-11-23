@@ -2,9 +2,16 @@
 
 Baby Groot Keyboard (bgkeeb)
 
-This is a reversible 100mm x 100mm pcb with support for mx switches (no hotswap), per key led, rotary encoders, and exposes the SDA/SCL/GND/VCC lines in the form of the pimoroni trackball pins (meaning you can add that as well, though the case doesn't support it, so you'll need to devise your own mechanism).
+This is a reversible 100mm x 100mm pcb with support for mx or choc switches (no hotswap), per key led, rotary encoders, and exposes the SDA/SCL/GND/VCC lines in the form of the pimoroni trackball pins (meaning you can add that as well, though the case doesn't support it, so you'll need to devise your own mechanism).
 
 Given the pcb is so small, pcb prototype manufacturers will fab this for very cheap, or even free. As of this writing, nextpcb will ship fab and ship this keyboard 100% for free (in green only). jlcpcb will fab and ship these for $2 (USD).
+
+# PCBs
+
+There are two pcbs, the choc version and the mx version.  
+
+For the mx version, see the pcb/mx directory in the repository  
+For the choc version, see the pcb/mx directory in the repository  
 
 # Support me!
 
