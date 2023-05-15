@@ -8,10 +8,10 @@ Given the pcb is so small, pcb prototype manufacturers will fab this for very ch
 
 # PCBs
 
-There are two pcbs, the choc version and the mx version.  
+There are two pcbs, the choc version and the mx version.
 
-For the mx version, see the pcb/mx directory in the repository  
-For the choc version, see the pcb/mx directory in the repository  
+For the mx version, see the pcb/mx directory in the repository
+For the choc version, see the pcb/mx directory in the repository
 
 # Support me!
 
@@ -48,3 +48,7 @@ https://github.com/sadekbaroudi/qmk_firmware/tree/master/keyboards/fingerpunch/b
 @robopuff
 
 ![cc101-build](images/bgkeeb-robopuff.jpg)
+
+@JulioPDX
+
+![juliopdx-build](images/bgkeep-juliopdx.jpg)
