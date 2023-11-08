@@ -29,6 +29,8 @@ Discord: sadekbaroudi#1258
 You can use the firmware found here:
 https://github.com/sadekbaroudi/qmk_firmware/tree/master/keyboards/fingerpunch/bgkeeb/
 
+zmk firmware here: https://github.com/ezxzeng/zmk-bgkeeb
+
 # Pictures
 
 ![build](images/build.jpg)
@@ -52,3 +54,8 @@ https://github.com/sadekbaroudi/qmk_firmware/tree/master/keyboards/fingerpunch/b
 @JulioPDX
 
 ![juliopdx-build](images/bgkeep-juliopdx.jpg)
+
+@ezxzeng
+
+![ezxzeng-build](images/bgkeeb-ezxzeng.jpg)
+case for the wireless choc build found [here](https://cad.onshape.com/documents/f9433f7cbaacd819773968dc/w/7cd753696df5795c5e7db3c3/e/7a6c60eb671b22fb31dd6c76)
